@@ -117,7 +117,7 @@ Open http://localhost:3000 with your browser to see the result.
 ![image](https://user-images.githubusercontent.com/8361967/145438318-62b43392-7844-492e-a9e2-4fd683fc4329.png)
 
 
-You can start editing the page by modifying pages/index.js. The page auto-updates as you edit the file.
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 
 **Enjoy Coding!**
