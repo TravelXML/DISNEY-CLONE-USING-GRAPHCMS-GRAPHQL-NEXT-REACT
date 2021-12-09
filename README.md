@@ -8,7 +8,7 @@ First, you need to create your GraphCMS Account then create Assets, Schemas and 
 
 ### Playground
 
-Once you are done with Schema and relation building, build  GQL queriesfor data fetching and mutation.
+Once you are done with Schema and relation building, build  GQL queries for data fetching and mutation.
 
 ### Example: 
 
