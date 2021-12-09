@@ -2,7 +2,7 @@
 ## Build DISNEY Clone using GRAPHCMS, GRAPHQL, NEXT, REACT
 
 ### Add assets
-First, you need to create your GraphCMS Account then create 
+First, you need to create your GraphCMS Account then create schema
 
 ![image](https://user-images.githubusercontent.com/8361967/145436231-6fa3ce18-430a-4ff0-9139-9d68e009ccbe.png)
 
