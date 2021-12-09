@@ -1,37 +1,111 @@
-## Welcome to GitHub Pages
+# DISNEY CLONE USING GRAPHCMS GRAPHQL NEXT REACT
+## Build DISNEY Clone using GRAPHCMS, GRAPHQL, NEXT, REACT
 
-You can use the [editor on GitHub](https://github.com/TravelXML/DISNEY-CLONE-USING-GRAPHCMS-GRAPHQL-NEXT-REACT/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+### Add assets
+First, you need to create your GraphCMS Account then create Assets, Schemas and Contents and their relationships.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![image](https://user-images.githubusercontent.com/8361967/145436231-6fa3ce18-430a-4ff0-9139-9d68e009ccbe.png)
 
-### Markdown
+### Playground
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Once you are done with Schema and relation building, build  GQL queries for data fetching and mutation.
 
-```markdown
-Syntax highlighted code block
+### Example: 
 
-# Header 1
-## Header 2
-### Header 3
+### Below one to fetch all videos with specific details.
 
-- Bulleted
-- List
+            query {
+                  videos {
+                    createdAt,
+                    id,
+                    title,
+                    description,
+                    seen,
+                    slug,
+                    tags,
+                    thumbnail {
+                      url
+                    },
+                    mp4 {
+                      url
+                    }
+                  }
+                }
+                
+### Fetch Specific Video by unique id
 
-1. Numbered
-2. List
+            query{
+              videos(where: { id:"ckwyfg18o096k0c05j5bw1bl5"}){
+                createdAt,
+                id,
+                title,
+                description,
+                slug,
+                tags,
+                thubnail{
+                  url
+                },
+                mp4{
+                  url
+                }
+              }
+            }
+                
+### Fetch Account Details
 
-**Bold** and _Italic_ and `Code` text
+            query {
+                account(where: { id: "ckwyfc4t4096b0c184nqkh2zq"}) { 
+                  username
+                  avatar {
+                    url
+                  }
+                }
+              }
 
-[Link](url) and ![Image](src)
-```
+For more reference you can have a look into the image below.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+![image](https://user-images.githubusercontent.com/8361967/145438884-1f4948a7-a786-4881-99bb-88b6a6e6adec.png)
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TravelXML/DISNEY-CLONE-USING-GRAPHCMS-GRAPHQL-NEXT-REACT/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Add a .env file
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+After the assets are loaded, add a .env file in root folder with the following:
+
+![image](https://user-images.githubusercontent.com/8361967/145437044-5a64ddd8-1a5f-475f-962a-b40e0d4626b8.png)
+
+    GRAPH_CMS_TOKEN={your_token}
+
+    ENDPOINT={your_endpoint}
+
+![image](https://user-images.githubusercontent.com/8361967/145436729-8ea993df-e10a-4bce-92af-e8043269a405.png)
+ 
+
+
+### Run the command below to install the packages.
+
+    npm i
+
+
+### Run the development server:
+
+    npm run dev
+ 
+ 
+  ![image](https://user-images.githubusercontent.com/8361967/145437311-7926b265-6fb9-406d-9b40-cad5e5508c4a.png)  
+ 
+
+
+ 
+Open http://localhost:3000 with your browser to see the result.
+
+![image](https://user-images.githubusercontent.com/8361967/145438318-62b43392-7844-492e-a9e2-4fd683fc4329.png)
+
+
+You can start editing the page by modifying pages/index.js. The page auto-updates as you edit the file.
+
+
+**Enjoy Coding!**
+
+
+
