@@ -1,13 +1,13 @@
 # DISNEY CLONE USING GRAPHCMS GRAPHQL NEXT REACT
- Build DISNEY Clone using GRAPHCMS, GRAPHQL, NEXT, REACT
+## Build DISNEY Clone using GRAPHCMS, GRAPHQL, NEXT, REACT
 
-Add assets
+### Add assets
 First, you need to create your GraphCMS Account then create 
 
 ![image](https://user-images.githubusercontent.com/8361967/145436231-6fa3ce18-430a-4ff0-9139-9d68e009ccbe.png)
 
 
-Add a .env file
+### Add a .env file
 
 After the assets are loaded, add a .env file in root folder with the following:
 
@@ -20,12 +20,12 @@ ENDPOINT={your_endpoint}
  
 
 
-Run the command below to install the packages.
+### Run the command below to install the packages.
 
   npm i
 
 
-Run the development server:
+### Run the development server:
 
   npm run dev
   
