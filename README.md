@@ -13,7 +13,7 @@
 * Access the data from GraphQl API and build the app.
 * Test the app on a running Server.
 
-Let's dive into the steps.
+**Let's dive into the steps:**
 
 
 ### Add assets
