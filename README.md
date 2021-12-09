@@ -4,7 +4,7 @@
 ## Build DISNEY Clone using GRAPHCMS, GRAPHQL, NEXT, REACT
 
 ### Summary
-* Build Schemas on GRAPHCMS.
+* Build Assets, Contents, Schemas on GRAPHCMS.
 * Get GraphQL endpoint and token, set permissions for all requests.
 * Build GQL queries.
 * Run them on the playground.
