@@ -12,7 +12,7 @@ Once you are done with Schema and relation building, build  GQL queriesfor data 
 
 ### Example: 
 
-### 1 Below one to fetch all videos with specific details.
+### Below one to fetch all videos with specific details.
 
             query {
                   videos {
