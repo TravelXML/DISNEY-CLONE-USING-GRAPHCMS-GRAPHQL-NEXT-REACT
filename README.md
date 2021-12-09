@@ -13,8 +13,9 @@ After the assets are loaded, add a .env file in root folder with the following:
 
 ![image](https://user-images.githubusercontent.com/8361967/145437044-5a64ddd8-1a5f-475f-962a-b40e0d4626b8.png)
 
-GRAPH_CMS_TOKEN={your_token}
-ENDPOINT={your_endpoint}
+    GRAPH_CMS_TOKEN={your_token}
+
+    ENDPOINT={your_endpoint}
 
 ![image](https://user-images.githubusercontent.com/8361967/145436729-8ea993df-e10a-4bce-92af-e8043269a405.png)
  
@@ -22,12 +23,12 @@ ENDPOINT={your_endpoint}
 
 ### Run the command below to install the packages.
 
-  npm i
+    npm i
 
 
 ### Run the development server:
 
-  npm run dev
+    npm run dev
   
   
   ![image](https://user-images.githubusercontent.com/8361967/145437311-7926b265-6fb9-406d-9b40-cad5e5508c4a.png)
