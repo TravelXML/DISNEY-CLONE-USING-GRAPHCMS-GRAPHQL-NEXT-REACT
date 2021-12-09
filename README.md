@@ -3,6 +3,19 @@
 
 ## Build DISNEY Clone using GRAPHCMS, GRAPHQL, NEXT, REACT
 
+### Summary
+* Build Schemas on GRAPHCMS.
+* Get GraphQL endpoint and token, set permissions for all requests.
+* Build GQL queries.
+* Run them on the playground.
+* Start frontend app  with React & Next App.
+* Install required packages like `graphql-request`.
+* Access the data from GraphQl API and build the app.
+* Test the app on a running Server.
+
+Let's dive into the steps.
+
+
 ### Add assets
 First, you need to create your GraphCMS Account then create Assets, Schemas and Contents and their relationships.
 
